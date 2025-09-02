@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício de POST</title>
+</head>
+<body>
+    <h1>Página de Teste para Requisição POST</h1>
+
+    <p>Clique no botão abaixo para enviar uma requisição POST ao servidor.</p>
+
+    <form method="POST">
+        {% csrf_token %} <button type="submit">Enviar Requisição POST</button>
+    </form>
+</body>
+</html>
